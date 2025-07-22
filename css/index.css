@@ -1,0 +1,18 @@
+.bottom-left-video {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 250px; /* adjust size */
+    height: auto;
+    border-radius: 10px; /* optional rounded corners */
+    z-index: 10;
+    object-fit: cover;
+  }
+
+  .gradient-text {
+    background: linear-gradient(to right, #5958588c, #0071ff); /* Blue gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
